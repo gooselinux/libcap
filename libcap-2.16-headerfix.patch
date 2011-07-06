@@ -1,0 +1,13 @@
+diff -up libcap-2.16/libcap/include/sys/capability.h.hfix libcap-2.16/libcap/include/sys/capability.h
+--- libcap-2.16/libcap/include/sys/capability.h.hfix	2009-06-15 14:46:51.000000000 +0200
++++ libcap-2.16/libcap/include/sys/capability.h	2009-06-15 14:47:00.000000000 +0200
+@@ -30,6 +30,9 @@ extern "C" {
+ #define _LINUX_FS_H
+ #define __LINUX_COMPILER_H
+ #define __user
++#define _ASM_X86_SIGCONTEXT_H
++#define _ASM_POWERPC_SIGCONTEXT_H
++#define _SPARC_SIGCONTEXT_H
+ 
+ typedef unsigned int __u32;
+ typedef __u32 __le32;
